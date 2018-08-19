@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        tools:text="20"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:id ="@+id/operator"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        tools:text="+"
+
+        />
+
+    <TextView
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="0dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textAlignment="textEnd"
+        android:textSize="40sp"
+        tools:text="20"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Clear"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/greyback"
+            android:text="Clr"
+            android:textColor="#2B60DE"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Div"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/greyback"
+            android:text="÷"
+            android:textColor="#2B60DE"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Mul"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/greyback"
+            android:text="X"
+            android:textColor="#2B60DE"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Del"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/greyback"
+            android:text="del"
+            android:textColor="#2B60DE"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="7"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="8"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="9"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Min"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/greyback"
+            android:text="-"
+            android:textColor="#2B60DE"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="6"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Plus"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/greyback"
+            android:text="+"
+            android:textColor="#2B60DE"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:id="@+id/one"
+            android:background="@drawable/border"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/point"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/greyback"
+            android:text="."
+            android:textColor="#2B60DE"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_open"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="x²"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/b_close"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/border"
+            android:text="x³"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:background="@drawable/greyback"
+            android:text="="
+            android:textColor="#FF0000"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
